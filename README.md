@@ -340,11 +340,11 @@
 | Dataset | Device | Contents | Access |
 |---|---|---|---|
 | [ConStellaration](https://github.com/proximafusion/constellaration) | Stellarator | ~158,000 QI-like stellarator plasma boundaries paired with ideal-MHD equilibria (VMEC++) and performance metrics; 3 optimization benchmarks of increasing difficulty | Public ([HF dataset](https://huggingface.co/datasets/proxima-fusion/constellaration)) |
-| [FAIR-MAST](https://github.com/ukaea/fair-mast) | MAST / MAST-U | Full experimental tokamak dataset (11,573+ shots, 39 diagnostic signal categories) via public catalog, S3 (parquet/zarr), REST/GraphQL API | Public ([mastapp.site](https://mastapp.site/)) |
+| [FAIR-MAST](https://github.com/ukaea/fair-mast) | MAST / MAST-U | Full experimental tokamak dataset (11,573+ shots, 39 diagnostic signal categories) via public catalog, S3 (parquet/zarr), REST/GraphQL API | Public ([GitHub](https://github.com/ukaea/fair-mast)) |
 | [TokaMark Benchmark](https://github.com/UKAEA-IBM-STFC-Fusion-FMs/tokamark_baseline) | MAST | Curated 14-task benchmark (time-series, 2D profiles, video) on real MAST experiments/diagnostics for evaluating fusion foundation models; companion to TokaMind | Public, CC BY 4.0 |
 | [Fusion Equilibrium Challenge Dataset](https://huggingface.co/datasets/Sophelio/fusion-equilibrium-challenge) | DIII-D + MAST | ~9,100 curated shots (7,915 DIII-D + 1,206 MAST), harmonized schema; poloidal-field coil currents + Thomson profiles for magnetic-geometry inference without magnetic diagnostics; NeurIPS 2026 competition dataset | Public, CC BY 4.0 |
 | [ITER IMAS](https://imas.iter.org/) | ITER / multi-device | Standardized plasma data schema (OMAS-compatible) — the emerging universal standard | Registered |
-| [JET Pulse Data (EUROfusion)](https://www.euro-fusion.org/fusion-database/) | JET | Full pulse diagnostics, disruption shots, D-T campaign data | Application |
+| JET Pulse Data (EUROfusion) | JET | Full pulse diagnostics, disruption shots, D-T campaign data | Application |
 | [DIII-D Data Archive](https://d3dfusion.org/) | DIII-D | Shots, equilibrium, kinetic profiles, NBI data; ~500 TB of research data, now linked to an NVIDIA Omniverse digital twin (2025) | Public (via user agreement) |
 | [EAST Open Data](https://lssf.cas.cn/en/facilities/energy/east/dr/) | EAST | Disruption database, multi-channel diagnostic signals, via the CAS Large Research Infrastructures data-resource portal | Public |
 | [Alcator C-Mod Data (MDSplus Archive)](https://cmodwiki.psfc.mit.edu/index.php/MDSplus) | C-Mod | Disruption database, Thomson scattering profiles; ~51,000 shots preserved post-decommissioning (135 TB) | Public |
